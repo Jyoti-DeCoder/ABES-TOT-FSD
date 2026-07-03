@@ -4,7 +4,7 @@
     height: 800px;
     width: 800px;
     background-color: aqua;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-evenly;
@@ -14,7 +14,7 @@
 height: 150px;
 width: 150px;
 border: 1px dotted green;
-background-color: yellow;
+background-color: red;
 order: 3
 }
 .box2{

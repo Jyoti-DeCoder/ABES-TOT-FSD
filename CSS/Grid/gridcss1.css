@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+}
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: auto;
+    border: solid;
+}
+.box11{
+    height: auto;
+    border: solid black;
+}
+.box2{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 4;
+    border: solid;
+}
+.box3{
+grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-end: 3;
+    border: solid;
+}
